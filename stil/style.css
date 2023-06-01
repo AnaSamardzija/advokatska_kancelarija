@@ -1,0 +1,232 @@
+:root {
+    --b1: #101c5e;
+    --b2: #afb9f1;
+    --b3: #848484;
+    --b4: #2c46db;
+    --b5: white;
+    --b6: black;
+    --font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: var(--b6);
+    font-family: var(--font);
+}
+
+.row {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Mobile uređaji (400px i manja širina ekrana) */
+@media only screen and (max-width: 400px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* Tablet uređaji (od 401px do 699px širine ekrana) */
+@media only screen and (min-width: 401px) and (max-width: 699px) {
+    [class*="col-t-"]{
+        float: left;
+    }
+    .col-t-1 {
+        width: 8.33%;
+    }
+    .col-t-2 {
+        width: 16.66%;
+    }
+    .col-t-3 {
+        width: 25%;
+    }
+    .col-t-4 {
+        width: 33.33%;
+    }
+    .col-t-5 {
+        width: 41.66%;
+    }
+    .col-t-6 {
+        width: 50%;
+    }
+    .col-t-7 {
+        width: 58.33%;
+    }
+    .col-t-8 {
+        width: 66.66%;
+    }
+    .col-t-9 {
+        width: 75%;
+    }
+    .col-t-10 {
+        width: 83.33%;
+    }
+    .col-t-11 {
+        width: 91.66%;
+    }
+    .col-t-12 {
+        width: 100%;
+    }    
+}
+
+/* Desktop uređaji (700px i veća širina ekrana) */
+@media only screen and (min-width: 700px) {
+    [class*="col-"]{
+        float: left;
+    }
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }    
+}
+
+/*header*/
+header ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: var(--b1);
+    text-align: center;
+}
+header li {
+    float: left;
+    color: var(--b5);
+    padding: 10px;
+}
+header li a {
+    text-decoration: none;
+    color: var(--b5);
+    margin: 0px;
+}
+header li a:hover {
+    font-size: 20px;
+    text-shadow: 2px 2px var(--b4);
+}
+header img {
+    height: auto;
+    width: 70px;
+}
+header .stranice {
+    padding-top: 40px;
+}
+
+/*footer*/
+footer ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    background-color: var(--b1);
+}
+footer li {
+    float: left;
+    color: var(--b5);
+    padding: 10px;
+}
+footer img {
+    width: 20px;
+    height: auto;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+/*odeljci u svakoj stranici*/
+.deo {
+    padding: 15px 50px;
+}
+
+/*naslovi na svakoj stranici*/
+h1, h2, h3 {
+    color: var(--b1);
+    text-shadow: 0px 0px 2px var(--b2);
+}
+
+/*stranica kontakt*/
+.kontakt {
+    text-align: center;
+}
+.kontakt img {
+    height: 50px;
+    width: auto;
+    margin: 15px;
+}
+.centriranje input {
+    padding: 20px;
+    margin-top: 20px;
+}
+.centriranje .poruka {
+    height: 150px;
+}
+.centriranje {
+    width: 80%;
+    margin: 0px auto;
+}
+.centriranje input[type=submit] {
+    background-color: var(--b2);
+}
+
+/*stranica usluge*/
+.usluge {
+    text-align: center;
+    padding: 25px;
+}
+.usluge img {
+    width: 20%;
+    height: auto;
+}
+
+/*stranica tim*/
+.zaposlen img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-shadow: 10px 10px 35px var(--b4);
+}
+.zaposlen, .podaci {
+    padding: 30px;
+}
+.podaci p {
+    padding: 10px;
+}
+
+/*stranica o nama*/
+.o_nama p {
+    padding: 10px 0px;
+}
