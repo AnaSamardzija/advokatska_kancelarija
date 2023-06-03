@@ -28,26 +28,34 @@
     </div>
 
     <div class="row deo">
-        <div class="col-4 col-t-12">
+        <div class="col-3 col-t-6">
             <div class="kontakt">
                 <img src="../slike/call.png" alt="telefon">
                 <h3>Telefon:</h3>
                 <p>Office: +381648330628</p>
             </div>
         </div>
-        <div class="col-4 col-t-12">
+        <div class="col-3 col-t-6">
             <div class="kontakt">
                 <img src="../slike/email.png" alt="email">
                 <h3>Email:</h3>
                 <p>ana.samardzija@pmf.edu.rs</p>
             </div>
         </div>
-        <div class="col-4 col-t-12">
+        <div class="col-3 col-t-6">
             <div class="kontakt">
                 <img src="../slike/map.png" alt="adresa">
                 <h3>Adresa:</h3>
                 <p>Višegradska 33</p>
                 <p>Niš 18106, Srbija</p>
+            </div>
+        </div>
+        <div class="col-3 col-t-6">
+            <div class="kontakt">
+                <img src="../slike/time.png" alt="radno vreme">
+                <h3>Radno vreme:</h3>
+                <p>radnim danima od 8 do 4</p>
+                <p id="radno_vreme"></p>
             </div>
         </div>
     </div>
@@ -59,13 +67,13 @@
         </div>
     </div>
 
-    <div class="row centriranje deo">
+    <div class="row centriranje deo poslednji">
         <form>
-            <input type="text" class="col-4 col-t-12" placeholder="Ime">
-            <input type="text" class="col-4 col-t-12" placeholder="Email">
-            <input type="text" class="col-4 col-t-12" placeholder="Telefon">
-            <input type="text" class="col-12 col-t-12 poruka" placeholder="Poruka">
-            <input type="submit" class="col-12 col-t-12" value="pošalji poruku">
+            <input type="text" id="ime" class="col-4 col-t-12" placeholder="Ime">
+            <input type="text" id="prezime" class="col-4 col-t-12" placeholder="Email">
+            <input type="text" id="telefon" class="col-4 col-t-12" placeholder="Telefon">
+            <input type="text" id="poruka" class="col-12 col-t-12 poruka" placeholder="Poruka">
+            <input type="submit" id="dugme" class="col-12 col-t-12" value="pošalji poruku">
         </form>
     </div>
 
@@ -77,5 +85,7 @@
             </ul>
         </footer>
     </div>
+
+    <script src="../js/script.js"></script>
 </body>
 </html>
