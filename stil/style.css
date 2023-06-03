@@ -19,6 +19,14 @@
     overflow: hidden;
 }
 
+p {
+    padding: 5px;
+}
+.deo ul {
+    padding-left: 30px;
+    list-style-type: circle;
+}
+
 /*header*/
 header ul {
     list-style-type: none;
@@ -159,6 +167,12 @@ h1, h2, h3 {
     header .stranice {
         padding-top: 5px;
     }
+    .usluge div {
+        padding: 15px;
+    }
+    .deo1 {
+        padding: 0px;
+    }
 }
 
 /* Tablet uređaji (od 401px do 699px širine ekrana) */
@@ -201,7 +215,14 @@ h1, h2, h3 {
     }
     .col-t-12 {
         width: 100%;
-    }    
+    } 
+    header li a:checked {
+        font-size: 20px;
+        text-shadow: 2px 2px var(--b4);
+    }
+    header .stranice {
+        padding-top: 5px;
+    }   
 }
 
 /* Desktop uređaji (700px i veća širina ekrana) */
