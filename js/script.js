@@ -21,13 +21,13 @@ RadnoVreme(dan, sati);
 
 //forma - salnje poruke
 let ime = document.getElementById("ime");
-let prezime = document.getElementById("prezime");
+let email = document.getElementById("email");
 let telefon = document.getElementById("telefon");
 let poruke = document.getElementById("poruka");
 let dugme = document.getElementById("dugme");
 
 dugme.addEventListener("click", (event) => {
-    if(ime.value == '' || prezime.value == '' || telefon.value == '') {
+    if(ime.value == '' || email.value == '' || telefon.value == '') {
         alert("Niste uneli sve podatke!");
         event.preventDefault();
     }
