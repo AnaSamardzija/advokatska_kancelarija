@@ -55,6 +55,10 @@ header img {
 header .stranice {
     padding-top: 40px;
 }
+.slike img {
+    width: 100%;
+    height: auto;
+}
 
 /*footer*/
 footer ul {
@@ -176,6 +180,21 @@ iframe {
     .deo1 {
         padding: 0px;
     }
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    /* Fading animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
 }
 
 /*stranica licna prezentacija*/
@@ -235,7 +254,22 @@ table tr td{
     }
     header .stranice {
         padding-top: 5px;
-    }   
+    }
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+    /* Fading animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+    }
 }
 
 /* Desktop uređaji (700px i veća širina ekrana) */
