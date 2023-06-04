@@ -281,6 +281,12 @@ table tr td{
     header .stranice {
         padding-top: 5px;
     }
+    .usluge div {
+        padding: 15px;
+    }
+    .usluge {
+        padding: 0px;
+    }
 
     /*slideshow container*/
     .slideshow-container {
