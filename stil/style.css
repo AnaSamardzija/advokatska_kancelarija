@@ -206,6 +206,13 @@ iframe {
         from {opacity: .4} 
         to {opacity: 1}
     }
+
+    .klijenti img {
+        width: 50%;
+    }
+    .deo {
+        padding: 15px 20px;
+    }
 }
 
 /*stranica licna prezentacija*/
