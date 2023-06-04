@@ -158,6 +158,13 @@ iframe {
 .klijenti {
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 15px;
+}
+.klijenti img {
+    width: 40%;
+    float: left;
+    margin-right: 15px;
+    border-radius: 25px;
 }
 
 /* Mobile uređaji (400px i manja širina ekrana) */
