@@ -60,6 +60,15 @@ header .stranice {
     height: auto;
 }
 
+.ciljevi {
+    text-align: center;
+}
+.ciljevi img {
+    height: 70px;
+    width: auto;
+    margin: 15px;
+}
+
 /*footer*/
 footer ul {
     list-style-type: none;
