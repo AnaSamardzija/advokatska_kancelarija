@@ -1,3 +1,4 @@
+//slideshow efekat za slike
 let slideIndex = 0;
 
 function Slides() {
