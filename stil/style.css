@@ -155,6 +155,10 @@ iframe {
 .o_nama p {
     padding: 10px 0px;
 }
+.klijenti {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 /* Mobile uređaji (400px i manja širina ekrana) */
 @media only screen and (max-width: 600px) {
