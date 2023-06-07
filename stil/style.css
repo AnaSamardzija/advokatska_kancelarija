@@ -34,6 +34,18 @@ p {
     padding: 5px;
 }
 
+/*dodato dugme za scroll na svakoj stranici*/
+#scroll {
+    display: none;
+    position: fixed; 
+    bottom: 60px;
+    right: 10px;
+    z-index: 99;
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+}
+
 /*naslovi na svakoj stranici*/
 h1, h2, h3 {
     color: var(--b1);
@@ -158,6 +170,10 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
+.centriranje select {
+    padding: 20px;
+    margin-top: 20px;
+}
 .centriranje .poruka {
     height: 150px;
 }
@@ -230,10 +246,17 @@ table tr td{
         from {opacity: .4} 
         to {opacity: 1}
     }
+    /*scroll dugme*/
+    #scroll {
+        bottom: 10px;
+        right: 10px;
+        height: 25px;
+        width: auto;
+    }
 }
 
 /*tablet uredjaji (od 600px do 768px sirine ekrana)*/
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 768px) {
     [class*="col-t-"]{
         float: left;
     }
@@ -306,7 +329,7 @@ table tr td{
 }
 
 /*desktop uredjaji (768px i veca sirina ekrana)*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     [class*="col-"]{
         float: left;
     }
